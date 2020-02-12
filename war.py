@@ -39,6 +39,8 @@ class War:
             if winner == "GoToWar":
                 print("It's time to go to war!!")
                 self.gotowar()
+            input("Press enter to continue")
+            print("")
 
     def gotowar(self):
         pass
