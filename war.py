@@ -3,9 +3,13 @@ from gameSetup import Setup
 
 class War:
     def __init__(self):
-        self.setup = Setup()
-        self.Players = self.setup.shuffleanddeal()
-        self.NumPlayers = len(self.Players)
+        while True:
+            self.setup = Setup()
+            self.Players = self.setup.shuffleanddeal()
+            self.NumPlayers = len(self.Players)
+            if self.NumPlayers == 2:
+                break
+            print("There are too many, or not enough, players for this game, you may only have 2 players")
         self.playerMoves = None
         self.playerNumber = 1
 
@@ -27,7 +31,7 @@ class War:
                 print(f"Player {self.playerNumber} flipped a {z}")
                 self.playerNumber += 1
             self.playerNumber = 1
-            winner = checkwin(self.playerMoves)
+            winner = self.checkwin()
             if winner == 0:
                 print("Player 1 won this round")
                 self.Players[0].append(self.playerMoves[1])
@@ -42,19 +46,20 @@ class War:
             input("Press enter to continue")
             print("")
 
+    def checkwin(self):
+        moves = self.playerMoves
+        # Checking if the cards are equal
+        if moves.count(moves[0]) == len(moves):
+            return "GoToWar"
+
+        # Checking who won otherwise
+        else:
+            winner = moves.index(max(moves))
+            return winner
+
+
     def gotowar(self):
         pass
-
-
-def checkwin(moves):
-    # Checking if the cards are equal
-    if moves.count(moves[0]) == len(moves):
-        return "GoToWar"
-
-    # Checking who won otherwise
-    else:
-        winner = moves.index(max(moves))
-        return winner
 
 
 game = War()

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4c3c246-0fea-4b08-b375-dd7fad122ffb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameSetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameSetup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war.py" beforeDir="false" afterPath="$PROJECT_DIR$/war.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,27 @@
       <option name="presentableId" value="Default" />
       <updated>1581093167742</updated>
     </task>
+    <task id="LOCAL-00001" summary="I've literally broken everything, but I'm close">
+      <created>1581542934078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581542934078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nevermind, Need to create the going to war function, but everything else works">
+      <created>1581543141548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581543141548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I've literally broken everything, but I'm close" />
+    <MESSAGE value="Nevermind, Need to create the going to war function, but everything else works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nevermind, Need to create the going to war function, but everything else works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581120271409">
@@ -82,22 +101,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="415" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581094599859" />
-    <state width="1899" height="363" key="GridCell.Tab.0.bottom" timestamp="1581542873479">
+    <state x="612" y="28" key="CommitChangelistDialog2" timestamp="1581543140811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581542873479" />
-    <state width="1899" height="363" key="GridCell.Tab.0.center" timestamp="1581542873479">
+    <state x="612" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581543140811" />
+    <state width="1899" height="363" key="GridCell.Tab.0.bottom" timestamp="1581545311333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581542873479" />
-    <state width="1899" height="363" key="GridCell.Tab.0.left" timestamp="1581542873479">
+    <state width="1899" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581545311333" />
+    <state width="1899" height="363" key="GridCell.Tab.0.center" timestamp="1581545311333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581542873479" />
-    <state width="1899" height="363" key="GridCell.Tab.0.right" timestamp="1581542873479">
+    <state width="1899" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581545311333" />
+    <state width="1899" height="363" key="GridCell.Tab.0.left" timestamp="1581545311333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581542873479" />
+    <state width="1899" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581545311333" />
+    <state width="1899" height="363" key="GridCell.Tab.0.right" timestamp="1581545311333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581545311333" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581543143664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581543143664" />
     <state x="618" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581124016874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
