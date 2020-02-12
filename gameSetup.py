@@ -4,7 +4,7 @@ from random import shuffle
 class Setup:
     def __init__(self):
         # Deck
-        self.deckOfCards = ["Ace", "Ace", "Ace", "Ace",
+        self.deckOfCards = [14, 14, 14, 14,
                             2, 2, 2, 2,
                             3, 3, 3, 3,
                             4, 4, 4, 4,
@@ -14,9 +14,9 @@ class Setup:
                             8, 8, 8, 8,
                             9, 9, 9, 9,
                             10, 10, 10, 10,
-                            "Jack", "Jack", "Jack", "Jack",
-                            "Queen", "Queen", "Queen", "Queen",
-                            "King", "King", "King", "King"]
+                            11, 11, 11, 11,
+                            12, 12, 12, 12,
+                            13, 13, 13, 13]
 
         # Getting Num Players
         while True:
