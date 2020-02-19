@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4c3c246-0fea-4b08-b375-dd7fad122ffb" name="Default Changelist" comment="I'm not sure if war is entirely finished, but I think so. There still may be the occasional Index error but I think I fixed it">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="a4c3c246-0fea-4b08-b375-dd7fad122ffb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TicTacToe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameBox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameSetup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war.py" beforeDir="false" afterPath="$PROJECT_DIR$/war.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XUGGyOl3A2IIs99lvTxJuhtDfb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,7 +37,49 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.gameBox">
+    <configuration name="TicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GameBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TicTacToe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gameBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GameBox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gameBox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="war" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GameBox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,7 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gameBox" />
         <item itemvalue="Python.war" />
+        <item itemvalue="Python.TicTacToe" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581545357927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Occasional bug where the pop index is out of range, but otherwise war is finished and commented">
+      <created>1581623065973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581623065973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +168,8 @@
     <MESSAGE value="I've literally broken everything, but I'm close" />
     <MESSAGE value="Nevermind, Need to create the going to war function, but everything else works" />
     <MESSAGE value="Made it so you may only have 2 players" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made it so you may only have 2 players" />
+    <MESSAGE value="Occasional bug where the pop index is out of range, but otherwise war is finished and commented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Occasional bug where the pop index is out of range, but otherwise war is finished and commented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Code_Folding" timestamp="1581614588878">
@@ -128,6 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581120271409" />
+    <state x="764" y="431" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1581895231661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="431" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581895231661" />
     <state x="785" y="415" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1581094599859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,46 +196,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="355" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1581622108999" />
-    <state x="612" y="28" key="CommitChangelistDialog2" timestamp="1581622123489">
+    <state x="612" y="28" key="CommitChangelistDialog2" timestamp="1582154033073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581622123489" />
-    <state width="1899" height="360" key="GridCell.Tab.0.bottom" timestamp="1581623019473">
+    <state x="612" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582154033073" />
+    <state width="1899" height="360" key="GridCell.Tab.0.bottom" timestamp="1581907475751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581623019473" />
-    <state width="1899" height="360" key="GridCell.Tab.0.center" timestamp="1581623019473">
+    <state width="1899" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581907475751" />
+    <state width="1899" height="360" key="GridCell.Tab.0.center" timestamp="1581907475751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581623019473" />
-    <state width="1899" height="360" key="GridCell.Tab.0.left" timestamp="1581623019473">
+    <state width="1899" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581907475751" />
+    <state width="1899" height="360" key="GridCell.Tab.0.left" timestamp="1581907475750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581623019473" />
-    <state width="1899" height="360" key="GridCell.Tab.0.right" timestamp="1581623019473">
+    <state width="1899" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581907475750" />
+    <state width="1899" height="360" key="GridCell.Tab.0.right" timestamp="1581907475751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581623019473" />
-    <state width="1899" height="326" key="GridCell.Tab.1.bottom" timestamp="1581621920216">
+    <state width="1899" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581907475751" />
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom" timestamp="1581686315114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581621920216" />
-    <state width="1899" height="326" key="GridCell.Tab.1.center" timestamp="1581621920216">
+    <state width="1899" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581686315114" />
+    <state width="1899" height="326" key="GridCell.Tab.1.center" timestamp="1581686315114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581621920216" />
-    <state width="1899" height="326" key="GridCell.Tab.1.left" timestamp="1581621920216">
+    <state width="1899" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581686315114" />
+    <state width="1899" height="326" key="GridCell.Tab.1.left" timestamp="1581686315113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581621920216" />
-    <state width="1899" height="326" key="GridCell.Tab.1.right" timestamp="1581621920216">
+    <state width="1899" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581686315113" />
+    <state width="1899" height="326" key="GridCell.Tab.1.right" timestamp="1581686315114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581621920216" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581545363258">
+    <state width="1899" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581686315114" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581623073168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581545363258" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581623073168" />
     <state x="618" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581124016874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,9 +244,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="94" width="627" height="852" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581124040343" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581616365690">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581896687225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581616365690" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581896687225" />
   </component>
 </project>

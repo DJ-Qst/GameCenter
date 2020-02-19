@@ -3,15 +3,8 @@ from gameSetup import Setup
 
 class War:
     def __init__(self):
-        while True:
-            # Running setup to confirm there is only two players and dealing accordingly
-            self.setup = Setup()
-            self.Players = self.setup.shuffleanddeal()
-            self.NumPlayers = len(self.Players)
-            if self.NumPlayers == 2:
-                break
-            print("There are too many, or not enough, players for this game, you may only have 2 players")
-
+        self.setup = Setup(numplayers=2)
+        self.Players = self.setup.shuffleanddeal()
         # Variable storing
         self.playerMoves = None
         self.wonCards = []
@@ -21,7 +14,7 @@ class War:
         self.flipper = None
         self.keepgoing = True
 
-    def turn(self):
+    def game(self):
         # While one player doesn't hold all of the cards
         while len(self.Players[0]) != 0 and len(self.Players[1]) != 0 and self.keepgoing:
             # Telling how many cards each person has
@@ -158,6 +151,3 @@ class War:
 
         print("\n ")
 
-
-game = War()
-game.turn()

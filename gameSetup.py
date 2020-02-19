@@ -2,7 +2,7 @@ from random import shuffle
 
 
 class Setup:
-    def __init__(self):
+    def __init__(self, numplayers=0):
         # Deck
         self.deckOfCards = [14, 14, 14, 14,
                             2, 2, 2, 2,
@@ -18,13 +18,16 @@ class Setup:
                             12, 12, 12, 12,
                             13, 13, 13, 13]
 
-        # Getting Num Players
-        while True:
-            try:
-                self.numPlayers = int(input("How many players are there: "))
-                break
-            except ValueError:
-                print("That was not a valid input")
+        if numplayers == 0:
+            # Getting Num Players
+            while True:
+                try:
+                    self.numPlayers = int(input("How many players are there: "))
+                    break
+                except ValueError:
+                    print("That was not a valid input")
+        else:
+            self.numPlayers = numplayers
 
     def shuffleanddeal(self):
         start = 0
