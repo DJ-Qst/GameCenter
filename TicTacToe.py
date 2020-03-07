@@ -18,6 +18,8 @@ class TicTacToe:
         self.p2place = 0
         self.true = True
         self.boardfull = False
+        self.did1win = False
+        self.did2win = False
 
     def game(self):
         # Deciding if there is only 1 or 2 players
@@ -87,7 +89,7 @@ class TicTacToe:
                 self.true = False
             self.isboardfull()
 
-        if self.boardfull:
+        if self.boardfull and not self.did1win and not self.did2win:
             # Printing the winning board
             self.tttboard = [f"|{self.places['a']}|{self.places['b']}|{self.places['c']}|", "\n",
                              f"|{self.places['d']}|{self.places['e']}|{self.places['f']}|", "\n",
@@ -143,6 +145,8 @@ class TicTacToe:
         # This is an absolute dumpster fire
 
         for i in range(1):
+            if i > 1:
+                print("hello")
             # P1 placement, if they input a already taken number, then they lose the turn
             if self.p1place == 7 and self.places['a'] != "X" and self.places['a'] != "O":
                 self.places['a'] = "X"
@@ -235,20 +239,28 @@ class TicTacToe:
 
     def didp1win(self):
         if self.places['a'] == self.places['e'] == self.places['i'] == "X":
+            self.did1win = True
             return True
         if self.places['g'] == self.places['e'] == self.places['c'] == "X":
+            self.did1win = True
             return True
         if self.places['b'] == self.places['e'] == self.places['h'] == "X":
+            self.did1win = True
             return True
         if self.places['d'] == self.places['e'] == self.places['f'] == "X":
+            self.did1win = True
             return True
         if self.places['a'] == self.places['b'] == self.places['c'] == "X":
+            self.did1win = True
             return True
         if self.places['c'] == self.places['f'] == self.places['i'] == "X":
+            self.did1win = True
             return True
         if self.places['g'] == self.places['h'] == self.places['i'] == "X":
+            self.did1win = True
             return True
         if self.places['a'] == self.places['d'] == self.places['g'] == "X":
+            self.did1win = True
             return True
         else:
             return False
@@ -256,20 +268,28 @@ class TicTacToe:
     def didp2win(self):
         # Computer Testing
         if self.places['a'] == self.places['e'] == self.places['i'] == "O":
+            self.did2win = True
             return True
         if self.places['g'] == self.places['e'] == self.places['c'] == "O":
+            self.did2win = True
             return True
         if self.places['b'] == self.places['e'] == self.places['h'] == "O":
+            self.did2win = True
             return True
         if self.places['d'] == self.places['e'] == self.places['f'] == "O":
+            self.did2win = True
             return True
         if self.places['a'] == self.places['b'] == self.places['c'] == "O":
+            self.did2win = True
             return True
         if self.places['c'] == self.places['f'] == self.places['i'] == "O":
+            self.did2win = True
             return True
         if self.places['g'] == self.places['h'] == self.places['i'] == "O":
-            return True
+            self.did2win = True
+            return True            
         if self.places['a'] == self.places['d'] == self.places['g'] == "O":
+            self.did2win = True
             return True
         else:
             return False
